@@ -65,7 +65,7 @@ const App = () => {
 
         <Search search={search} />
 
-        <p className="App-intro">Best movies</p>
+        <p className="App-intro">Best Movies of All Time</p>
 
         <div className="movies">{retrievedMovies}</div>
       </div>
