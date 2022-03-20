@@ -21,9 +21,6 @@ const App = () => {
     });
   }, []);
 
-  const refreshPage = () => {
-    window.location.reload();
-  };
 
   const search = searchValue => {
     dispatch({
